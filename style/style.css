@@ -310,9 +310,16 @@ section .section-2  .line-3 img, p {
     
     
  }
- @media screen  and (max-width:640px){
+ 
+
+ /* Kichik ekranga moslashish */
+@media screen and (max-width: 640px) {
+    .block  {
+       flex-direction: column;
+      
+    }
+  }
   
- }
 
    
     
