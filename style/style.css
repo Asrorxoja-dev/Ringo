@@ -113,10 +113,33 @@ cursor: pointer;
 background:  #AE7B3C;
 box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
 color:  #FFF;
-
+margin-bottom: 150px;
 /* text_botton */
 
 
+}
+
+.hero .img {
+    display: flex;
+    margin-left: 100px;
+  gap: 30px;
+  stroke-width: 2px;
+  width: 20px;
+height: 0px;
+flex-shrink: 0;
+  align-items:center;
+stroke: var(--, #FFF);
+}
+
+.hero hr {
+    width: 1200px;
+height: 1px;
+opacity: 0.4;
+background: #FFF;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.20) -13.19%, rgba(0, 0, 0, 0.85) 94.01%);
 }
 
 
@@ -275,17 +298,19 @@ section .section-2  .line-3 img, p {
 }
 
 @media screen  and (max-width:1300px){
-  .block {
+  .block .background-image {
  width: 100%;
   }
 }
 
-@media screen  and (max-width:900px) {
-  
+@media screen  and (max-width:1000px) {
+  .main .images   {
+    flex-direction: column;
+  }
     
     
  }
- @media screen  and (max-width:600px){
+ @media screen  and (max-width:640px){
   
  }
 
