@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family:"Raleway";
+    font-family: 'Raleway';
 }
 
 
@@ -59,7 +59,7 @@ width: 446px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-family: Raleway;
+
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -82,7 +82,7 @@ main p {
 text-align: center;
 margin-top: 150px;
 /* заголовок_H2 */
-font-family: 'Raleway';
+
 font-size: 46px;
 font-style: normal;
 font-weight: 600;
@@ -94,12 +94,19 @@ margin-left: auto;
 margin-right: auto;
 margin-bottom: 100px;
 }
-
+.hero .button h3 {
+    width: 155px;
+    height: 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+}
 .hero button {
     display: flex;
 width: 260px;
 padding: 22px 56px;
-align-items: flex-start;
+align-items: center;
 gap: 10px;
 border:none;
 cursor: pointer;
@@ -108,11 +115,8 @@ box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
 color:  #FFF;
 
 /* text_botton */
-font-family: 'Raleway';
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 100%; /* 16px */
+
+
 }
 
 
@@ -123,7 +127,8 @@ line-height: 100%; /* 16px */
 main .images {
     display: flex;
     align-items:center;
-   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
    gap: 30px;
 }
 
@@ -204,7 +209,7 @@ section p {
     color:  #FFF;
 text-align: center;
     /* Заголовок_H5 (medium) */
-    font-family: 'Raleway';
+  
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -240,7 +245,7 @@ section .section-1 .line-2 p {
     color:  #FFF;
 
     /* Заголовок_H5 (medium) */
-    font-family: Raleway;
+   
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -268,3 +273,22 @@ section .section-2  .line-2 img {
 section .section-2  .line-3 img, p {
     padding-right: 30px;
 }
+
+@media screen  and (max-width:1300px){
+  .block {
+ width: 100%;
+  }
+}
+
+@media screen  and (max-width:900px) {
+  
+    
+    
+ }
+ @media screen  and (max-width:600px){
+  
+ }
+
+   
+    
+ 
