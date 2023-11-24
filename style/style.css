@@ -18,7 +18,8 @@
 }
 
 body {
-    font-family: 'Raleway';
+    
+    font-family: "Raleway";
 }
 
 
@@ -214,7 +215,7 @@ line-height: 125%; /* 57.5px */
 text-transform: uppercase;
 }
 section {
-    width: 1350px;
+    width: 1400px;
 height: 688px;
 flex-shrink: 0;
 background:  #3D4A39;
@@ -303,9 +304,86 @@ section .section-2  .line-3 img, p {
     padding-right: 30px;
 }
 
-@media screen {
-    
+.description {
+    margin-top: 100px;
+   margin-left: 100px;
 }
-   
     
+.desc__container {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
  
+.desc__container .description-text h2 {
+    color:  #282B22;
+text-align: center;
+width: 814px;
+margin-left: 50px;
+font-family: 'Raleway';
+margin-top: 30px;
+/* Заголовок_H3 */
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 46.8px */
+}
+
+.description .title-text {
+    display: flex;
+    justify-content: center;
+    margin-top: -400px;
+    gap: 70px;
+    margin-right: 50px;
+}
+
+.description .title-text .title-text-1, .title-text-2 {
+    display: flex;
+    gap: 20px;
+  
+}
+
+.description .title-text p {
+   
+    color:  #282B22;
+    width: 370px;
+    height: 108px;
+/* text_18px (medium) */
+font-family: "Raleway";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 27px */
+margin-top: -5px;
+}
+
+.desc__container hr {
+    margin-top: 70px;
+    width: 926px;
+height: 0px;
+opacity: 0.2;
+background: #282B22;
+}
+
+.description .title-text hr {
+    width: 1px;
+height: 187px;
+opacity: 0.2;
+background: #282B22;
+margin-top: -35px;
+}
+
+.description .end-line {
+    margin-top: 15px;
+    width: 1200px;
+height: 0px;
+opacity: 0.2;
+background: #282B22;
+}
+
+.desc__container .img-2 {
+    position: relative;
+    top: 150px;
+    margin-left: 20px;
+}
