@@ -390,12 +390,17 @@ background: #282B22;
 
 .action__container {
   margin-top: 150px;
+<<<<<<< HEAD
  
 
 }
 
 
 
+=======
+}
+
+>>>>>>> 5a8e27695c5b922732bbfcb3b49a621db9a00b07
 .action__container h2 {
    margin-left: 500px;
    margin-bottom: 80px;
@@ -423,6 +428,7 @@ height: 58px;
 }
 
 .action__container  .line-1 {
+<<<<<<< HEAD
     margin-bottom: 100px;
     margin-top: 50px;
 
@@ -433,6 +439,12 @@ height: 58px;
 }
 
 
+=======
+    margin-bottom: 150px;
+    margin-top: 50px;
+
+}
+>>>>>>> 5a8e27695c5b922732bbfcb3b49a621db9a00b07
 
 .action__container  .line-1 .number h3 {
     color: #282B22;
@@ -467,6 +479,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 135%; /* 21.6px */
 opacity: 0.8;
+<<<<<<< HEAD
 }
 
 .action__container  .line-2 .action-text-2 h3 {
@@ -650,4 +663,6 @@ margin-bottom: 50px;
 
 .action__container  .line-5 {
     margin-bottom: 200px;
+=======
+>>>>>>> 5a8e27695c5b922732bbfcb3b49a621db9a00b07
 }
