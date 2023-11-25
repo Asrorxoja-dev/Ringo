@@ -220,6 +220,7 @@ height: 688px;
 flex-shrink: 0;
 background:  #3D4A39;
 margin-bottom: 50px;
+
 }
 
 section .section-1{
@@ -658,17 +659,157 @@ margin-top: -70px;
 margin-bottom: 50px;
 }
 .hr-12 {
-    margin-top: 500px;
+    margin-top: 510px;
     width: 1200px;
     height: 0px;
     margin-left: 50px;
     opacity: 0.2;
     background: #282B22;
-    /* margin-top: -70px; */
     margin-bottom: 50px;
 }
 
 
-.action__container  .line-5 {
-    margin-bottom: 200px;
+.registration {
+  display: flex;
+  
+  max-width: 1800px;
+    margin-top: 200px;
+   
+}
+.registration .text {
+    width: 800px;
+    height: 700px;
+    background:  #3D4A39;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.registration h2 {
+    color:  #FFF;
+    width: 413px;
+/* заголовок_H2 */
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 57.5px */
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.registration  p {
+    color: #FFF;
+    width: 306px;
+/* text_16px (medium) */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 145%; /* 23.2px */
+opacity: 0.8;
+margin-bottom: 50px;
+}
+.registration input .placeholder {
+    border-radius:none;
+   
+}
+.registration input {
+    border:none;
+    margin-bottom: 35px;
+    background:none;
+}
+
+.registration .file {
+    display: flex;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.registration .file p {
+    color:  #FFF;
+
+    /* text_14px (medium) */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 14px */
+}
+
+.registration form hr {
+margin-top: -20px;
+width: 300px;
+height: 2px;
+opacity: 0.2;
+background: #FFF;
+}
+
+
+.registration  .name-hr {
+    margin-bottom: 30px;
+}
+
+
+.registration .img img {
+    position: absolute;
+    left: 800px;
+   top: 4516px;
+}
+
+.registration .text button {
+    display: flex;
+width: 300px;
+cursor: pointer;
+padding: 22px 56px;
+justify-content: center;
+align-items: flex-start;
+border:none;
+gap: 10px;
+background:  #AE7B3C;
+box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+transition: all 0.5s;
+margin-bottom: 30px;
+}
+
+.registration .text button h3 {
+    color:  #FFF;
+
+/* text_botton */
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 16px */
+}
+
+.registration .text button:hover {
+    background:#6b4619;
+}
+
+.registration .text .end-text {
+    display: flex;
+    gap: 15px;
+}
+
+.registration .text .end-text p {
+    width: 273px;
+
+    color:  #FFF;
+
+/* text_12px (medium) */
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 15.6px */
+}
+
+
+@media    screen  and (max-width:1600px){
+    .block {
+        width: 100%;
+    }
+}
+
+@media screen  and (max-width:640px) {
+    section {
+       max-width:  30%;
+    }
 }
