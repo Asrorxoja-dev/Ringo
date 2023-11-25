@@ -390,7 +390,11 @@ background: #282B22;
 
 .action__container {
   margin-top: 150px;
+ 
+
 }
+
+
 
 .action__container h2 {
    margin-left: 500px;
@@ -608,4 +612,42 @@ font-style: normal;
 font-weight: 400;
 line-height: 135%; /* 21.6px */
 opacity: 0.8;
+}
+
+.action__container .hr-1 {
+    width: 1200px;
+height: 0px;
+margin-left: 50px;
+opacity: 0.2;
+background: #282B22;
+}
+.action__container  .hr-8 {
+    width: 1px;
+height: 124px;
+opacity: 0.2;
+background: #282B22;
+margin-left: 550px;
+}
+.action__container .hr-2, .hr-4,.hr-6, .hr-10 {
+    width: 1px;
+height: 124px;
+opacity: 0.2;
+background: #282B22;
+margin-left: 500px;
+}
+
+.action__container .hr-3, .hr-5, .hr-7, .hr-9, .hr-11 {
+    width: 1200px;
+height: 0px;
+margin-left: 50px;
+opacity: 0.2;
+background: #282B22;
+margin-top: -70px;
+margin-bottom: 50px;
+}
+
+
+
+.action__container  .line-5 {
+    margin-bottom: 200px;
 }
