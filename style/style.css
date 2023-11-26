@@ -671,7 +671,7 @@ margin-bottom: 50px;
 
 .registration {
   display: flex;
-  
+  margin-bottom: 150px;
   max-width: 1800px;
     margin-top: 200px;
    
@@ -801,15 +801,237 @@ font-weight: 500;
 line-height: 130%; /* 15.6px */
 }
 
-
-@media    screen  and (max-width:1600px){
-    .block {
-        width: 100%;
-    }
+.work-block {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+.work {
+    margin-left: 200px;
+   
 }
 
-@media screen  and (max-width:640px) {
-    section {
-       max-width:  30%;
-    }
+.work .work-title {
+    margin-left: 400px;
+    margin-bottom: 80px;
+    color:  #282B22;
+
+/* заголовок_H2 */
+
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 57.5px */
+text-transform: uppercase;
+}
+
+.work .work-1 h3 {
+    color: #3D4A39;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+   border:1px solid black;
+   padding-top: 10px;
+   border-radius:50px;
+   stroke-width: 1px;
+stroke:  #282B22;
+opacity: 0.3;
+   align-items:center;
+   text-align: center;
+/* Заголовок_H5 */
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+margin-bottom: 35px;
+}
+.work .work-1  h2 {
+    width: 188px;
+    color:  #282B22;
+margin-bottom: 15px;
+/* text_18px (semibold) */
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 18px */
+}
+
+.work .work-1 p {
+    color:  #282B22;
+width: 250px;
+height: 92px;
+/* text_16px (medium) */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 145%; /* 23.2px */
+margin-bottom: 30px;
+}
+
+.work  .work-2 h3 
+{
+    color:  #3D4A39;
+
+/* Заголовок_H5 */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+
+
+color: #3D4A39;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+   border:1px solid black;
+   padding-top: 10px;
+   border-radius:50px;
+   stroke-width: 1px;
+stroke:  #282B22;
+opacity: 0.3;
+   align-items:center;
+   text-align: center;
+/* Заголовок_H5 */
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+margin-bottom: 35px;
+}
+
+.work .work-2 h2 {
+    color:  #282B22;
+width: 124px;
+    /* text_18px (semibold) */
+   margin-bottom: 15px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 18px */
+
+}
+
+
+.work .work-2 p {
+    color:  #282B22;
+    width: 280px;
+    height: 92px;
+    /* text_16px (medium) */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 23.2px */
+    margin-bottom: 30px;
+}
+
+
+
+.work .work-3 h3 {
+    color:  #3D4A39;
+
+/* Заголовок_H5 */
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+
+
+color: #3D4A39;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+   border:1px solid black;
+   padding-top: 10px;
+   border-radius:50px;
+   stroke-width: 1px;
+stroke:  #282B22;
+opacity: 0.3;
+   align-items:center;
+   text-align: center;
+/* Заголовок_H5 */
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+margin-bottom: 35px;
+}
+
+
+
+.work .work-3 h2 {
+    color:  #282B22;
+width: 126px;
+margin-bottom: 15px;
+    /* text_18px (semibold) */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 18px */
+}
+
+.work .work-3 p {
+    color:  #282B22;
+width: 280px;
+/* text_16px (medium) */
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 145%; /* 23.2px */
+}
+
+.work .work-4 h3 {
+    color:  #3D4A39;
+
+    /* Заголовок_H5 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 24px */
+    
+    
+    color: #3D4A39;
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+       border:1px solid black;
+       padding-top: 10px;
+       border-radius:50px;
+       stroke-width: 1px;
+    stroke:  #282B22;
+    opacity: 0.3;
+       align-items:center;
+       text-align: center;
+    /* Заголовок_H5 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 24px */
+    margin-bottom: 35px;
+}
+
+.work .work-4 h2 {
+    color:  #282B22;
+    width: 126px;
+    margin-bottom: 15px;
+        /* text_18px (semibold) */
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 100%; /* 18px */
+}
+
+
+.work .work-4 p {
+    color:  #282B22;
+    width: 280px;
+    /* text_16px (medium) */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 23.2px */
 }
